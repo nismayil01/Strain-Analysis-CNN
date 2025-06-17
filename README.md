@@ -8,20 +8,20 @@ This repository presents a reproducible pipeline for semi-automated strain analy
 The workflow replaces traditional manual tracing methods with a U-Net-based Convolutional Neural Network (CNN) to perform mineral segmentation. Post-segmentation, ellipse fitting is applied to segmented clasts to extract morphological data such as axial ratios, orientations, and area percentages—key metrics for finite strain analysis.
 
 ## Directory Structure
-📁 .IPYNB Files → Jupyter notebooks for training, segmentation, ellipse fitting, and plotting
-📁 Full thin sections → Full-size thin section images used for segmentation
-📁 Models → Trained U-Net models (.h5 files)
-📁 dataset/ → Primary dataset of image patches
-📁 dataset11/ → Additional dataset variant
-📁 dataset12/
-📁 dataset18/
-📁 dataset21/
-📁 dataset51/
-📁 datasetgf11/ → Galice Formation image patches
-📁 datasetgf12/
-📁 input_images/ → Input images for testing and visualization
-📄 predicted_clasts_ellipses.csv → Output table of ellipse parameters from OpenCV fitting
-📄 README.md → Project overview and usage guide
+📁 .IPYNB Files → Jupyter notebooks for training, segmentation, ellipse fitting, and plotting  
+📁 Full thin sections → Full-size thin section images used for segmentation  
+📁 Models → Trained U-Net models (.h5 files)  
+📁 dataset/ → Primary dataset of image patches  
+📁 dataset11/ → Additional dataset variant  
+📁 dataset12/  
+📁 dataset18/     
+📁 dataset21/  
+📁 dataset51/  
+📁 datasetgf11/  → Galice Formation image patches  
+📁 datasetgf12/  
+📁 input_images/ → Input images for testing and visualization  
+📄 predicted_clasts_ellipses.csv → Output table of ellipse parameters from OpenCV fitting  
+📄 README.md → Project overview and usage guide   
 
 
 ## Key Features
@@ -49,11 +49,4 @@ Areal percentage breakdown by class
 Ellipse parameter table (orientation, aspect ratio)
 Clast orientation rose diagrams
 Axial ratio histograms
-
-## Notes
-
-The dataset folders contain preprocessed image patches used for training and validation.
-Large files may be managed using external tools such as Git LFS or DVC if needed.
-Replace or expand datasets as required for additional formations or sections.
-Generate plots and CSV results
 
