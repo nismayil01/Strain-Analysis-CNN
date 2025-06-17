@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 Output Example
 
-##The final outputs include:
+## The final outputs include:
 
 Confusion matrix (for segmentation accuracy)
 
@@ -58,7 +58,7 @@ Clast orientation rose diagrams
 
 Axial ratio histograms
 
-##Notes
+## Notes
 
 The dataset folders contain preprocessed image patches used for training and validation.
 
