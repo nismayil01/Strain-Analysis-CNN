@@ -34,36 +34,26 @@ The workflow replaces traditional manual tracing methods with a U-Net-based Conv
 
 ## Usage
 
-1. Clone the repository
-   
-pip install -r requirements.txt
-
-2. Run notebooks in .IPYNB Files to:
+ Run notebooks in .IPYNB Files to:
 
   Train or load a U-Net model
   Perform segmentation on full thin sections
   Fit ellipses to clasts
 
-Output Example
+
 
 ## The final outputs include:
 
 Confusion matrix (for segmentation accuracy)
-
 Areal percentage breakdown by class
-
 Ellipse parameter table (orientation, aspect ratio)
-
 Clast orientation rose diagrams
-
 Axial ratio histograms
 
 ## Notes
 
 The dataset folders contain preprocessed image patches used for training and validation.
-
 Large files may be managed using external tools such as Git LFS or DVC if needed.
-
 Replace or expand datasets as required for additional formations or sections.
 Generate plots and CSV results
 
