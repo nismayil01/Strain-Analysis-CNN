@@ -5,7 +5,7 @@ This repository presents a reproducible pipeline for semi-automated strain analy
 
 ## Project Summary
 
-The workflow replaces traditional manual tracing methods with a U-Net-based Convolutional Neural Network (CNN) to perform mineral segmentation. Post-segmentation, ellipse fitting is applied to segmented clasts to extract morphological data such as axial ratios, orientations, and area percentages—key metrics for finite strain analysis.
+The workflow replaces traditional manual tracing methods with a U-Net-based Convolutional Neural Network (CNN) to perform mineral segmentation. Post-segmentation, ellipse fitting is applied to segmented clasts to extract morphological data such as axial ratios, orientations, and area percentages for finite strain analysis.
 
 ## Directory Structure
 📁 .IPYNB Files → Jupyter notebooks for training, segmentation, ellipse fitting, and plotting  
