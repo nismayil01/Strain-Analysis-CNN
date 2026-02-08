@@ -8,20 +8,20 @@ This repository presents a reproducible pipeline for semi-automated strain analy
 The workflow replaces traditional manual tracing methods with a U-Net-based Convolutional Neural Network (CNN) to perform mineral segmentation. Post-segmentation, ellipse fitting is applied to segmented clasts to extract morphological data such as axial ratios, orientations, and area percentages for finite strain analysis.
 
 ## Directory Structure
-📁 .IPYNB Files → Jupyter notebooks for training, segmentation, ellipse fitting, and plotting  
-📁 Full thin sections → Full-size thin section images used for segmentation  
-📁 Models → Trained U-Net models (.h5 files)  
-📁 dataset/ → Primary dataset of image patches  
-📁 dataset11/ → Datasets generated for image and masks of the input image patches
-📁 dataset12/  
-📁 dataset18/     
-📁 dataset21/  
-📁 dataset51/  
-📁 datasetgf11/  
-📁 datasetgf12/  
-📁 input_images/ → Input images for testing and visualization  
-📄 predicted_clasts_ellipses.csv → Output table of ellipse parameters from OpenCV fitting  
-📄 README.md → Project overview and usage guide   
+.IPYNB Files → Jupyter notebooks for training, segmentation, ellipse fitting, and plotting  
+Full thin sections → Full-size thin section images used for segmentation  
+Models → Trained U-Net models (.h5 files)  
+dataset/ → Primary dataset of image patches  
+dataset11/ → Datasets generated for image and masks of the input image patches
+dataset12/  
+dataset18/     
+dataset21/  
+dataset51/  
+datasetgf11/  
+datasetgf12/  
+input_images/ → Input images for testing and visualization  
+predicted_clasts_ellipses.csv → Output table of ellipse parameters from OpenCV fitting  
+README.md → Project overview and usage guide   
 
 
 ## Key Features
